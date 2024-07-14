@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 #Code for Finding combinations of generators of each weight
 #Enter Generators and corresponding weights in the following dictionary then run
 
@@ -146,4 +140,3 @@ W14 = []
 result = {tuple(sorted(i)): i for i in W14}.values()
 print(list(result))
 print(len(list(result)))
-
