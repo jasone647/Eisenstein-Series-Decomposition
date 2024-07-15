@@ -32,7 +32,7 @@ W6 = [E2s^3,E2s*E4,E2s*E4s]
 W8 = [E2s^4,E2s^2*E4,E2s^2*E4s,E4^2,E4s^2,]  
 W10=[E2s^5,E2s*E4^2,E2s*E4s^2,E2s^3*E4,E2s^3*E4s]  
 
-#Multiply modular derivates by elements of appropriate weight to make them weight 14, put them all into list hs to use in matrix
+#Multiply modular derivates by elements of appropriate weight to make them weight 10, put them all into list hs to use in matrix
 hs = []
 hfour12 = [hfour*i for i in W2]
 for i in hfour12:
